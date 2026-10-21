@@ -27,6 +27,14 @@ Outros comandos:
 | `npm run dev:host` | Expõe na rede local para testar no celular |
 | `npm run generate:assets` | Regera modelos GLB, fotos PNG e ambientes de demonstração (requer Chromium) |
 
+### Publicação (GitHub Pages)
+
+Cada envio para `main` roda os testes, gera o build e publica em
+**https://lucaskiyota10-pixel.github.io/awake-simulator/** (workflow em
+`.github/workflows/deploy-pages.yml`). Para isso, o Pages precisa estar ativado uma vez em
+*Settings → Pages → Build and deployment → Source: GitHub Actions*. O endereço é HTTPS, então
+a câmera ao vivo funciona também no celular.
+
 ### Testar no celular
 
 1. `npm run dev:host` e abra no celular o endereço "Network" exibido (mesma rede Wi-Fi).

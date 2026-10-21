@@ -1,0 +1,148 @@
+{
+  "products": {
+    "escultura-onda": {
+      "image": "demo/products/escultura-onda.png",
+      "model": "demo/models/escultura-onda.glb"
+    },
+    "escultura-gota": {
+      "image": "demo/products/escultura-gota.png",
+      "model": "demo/models/escultura-gota.glb"
+    },
+    "escultura-arco": {
+      "image": "demo/products/escultura-arco.png",
+      "model": "demo/models/escultura-arco.glb"
+    },
+    "escultura-esferas": {
+      "image": "demo/products/escultura-esferas.png",
+      "model": "demo/models/escultura-esferas.glb"
+    },
+    "luminaria-lua": {
+      "image": "demo/products/luminaria-lua.png",
+      "model": "demo/models/luminaria-lua.glb"
+    },
+    "luminaria-arco": {
+      "image": "demo/products/luminaria-arco.png",
+      "model": "demo/models/luminaria-arco.glb"
+    },
+    "vaso-anfora": {
+      "image": "demo/products/vaso-anfora.png",
+      "model": "demo/models/vaso-anfora.glb"
+    },
+    "vaso-canelado": {
+      "image": "demo/products/vaso-canelado.png",
+      "model": "demo/models/vaso-canelado.glb"
+    },
+    "vela-copo": {
+      "image": "demo/products/vela-copo.png",
+      "model": "demo/models/vela-copo.glb"
+    },
+    "escultura-folha": {
+      "image": "demo/products/escultura-folha.png",
+      "model": null
+    }
+  },
+  "rooms": [
+    {
+      "id": "demo-sala",
+      "name": "Sala de estar",
+      "image": "demo/rooms/demo-sala.jpg",
+      "width": 1600,
+      "height": 1067,
+      "camera": {
+        "fovDeg": 50,
+        "pitchDeg": 0,
+        "heightM": 1.2
+      },
+      "references": [
+        {
+          "label": "Aparador — altura",
+          "lengthCm": 80,
+          "a": {
+            "x": 1105.09,
+            "y": 860.38
+          },
+          "b": {
+            "x": 1105.09,
+            "y": 642.46
+          }
+        },
+        {
+          "label": "Mesa de centro — altura",
+          "lengthCm": 40,
+          "a": {
+            "x": 604.09,
+            "y": 1003.68
+          },
+          "b": {
+            "x": 604.09,
+            "y": 846.95
+          }
+        }
+      ]
+    },
+    {
+      "id": "demo-hall",
+      "name": "Hall de entrada",
+      "image": "demo/rooms/demo-hall.jpg",
+      "width": 1600,
+      "height": 1067,
+      "camera": {
+        "fovDeg": 50,
+        "pitchDeg": 0,
+        "heightM": 1.3
+      },
+      "references": [
+        {
+          "label": "Aparador — altura",
+          "lengthCm": 85,
+          "a": {
+            "x": 866.99,
+            "y": 991.84
+          },
+          "b": {
+            "x": 866.99,
+            "y": 692.16
+          }
+        },
+        {
+          "label": "Porta — altura",
+          "lengthCm": 210,
+          "a": {
+            "x": 992.55,
+            "y": 950.7
+          },
+          "b": {
+            "x": 992.55,
+            "y": 276.76
+          }
+        }
+      ]
+    },
+    {
+      "id": "demo-quarto",
+      "name": "Quarto",
+      "image": "demo/rooms/demo-quarto.jpg",
+      "width": 1600,
+      "height": 1067,
+      "camera": {
+        "fovDeg": 50,
+        "pitchDeg": 0,
+        "heightM": 1.25
+      },
+      "references": [
+        {
+          "label": "Criado-mudo — altura",
+          "lengthCm": 55,
+          "a": {
+            "x": 1005.94,
+            "y": 914.86
+          },
+          "b": {
+            "x": 1005.94,
+            "y": 747.06
+          }
+        }
+      ]
+    }
+  ]
+}
